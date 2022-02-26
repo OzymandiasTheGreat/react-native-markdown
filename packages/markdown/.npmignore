@@ -1,2 +1,5 @@
 screenshots
 tsconfig.json
+.env
+*.tgz
+.release-it.json

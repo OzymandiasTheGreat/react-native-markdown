@@ -1,5 +1,5 @@
 {
-	"name": "@ozymandiasthegreat/markdown",
+	"name": "@oz/markdown",
 	"version": "1.0.0",
 	"author": {
 		"name": "Tomas Ravinskas",
@@ -9,8 +9,8 @@
 	"license": "MIT",
 	"private": true,
 	"scripts": {
-		"clean": "rm -rf node_modules yarn.lock && find {apps,packages} -maxdepth 2 -type d -name node_modules | rm -rf && yarn",
-		"build": "yarn workspace react-native-markdown build",
+		"clean": "rm -rf node_modules yarn.lock && find apps packages -maxdepth 2 -type d -name node_modules | rm -rf && yarn",
+		"build": "yarn workspace @oz/react-native-markdown build",
 		"example": "yarn workspace example"
 	},
 	"workspaces": {

@@ -1,0 +1,13 @@
+{
+	"github": {
+		"release": true,
+		"assets": ["./*.tgz"]
+	},
+	"npm": {
+		"publish": true
+	},
+	"hooks": {
+		"before:release": "yarn build && yarn pack",
+		"after:release": "rm *.tgz"
+	}
+}

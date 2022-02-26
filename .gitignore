@@ -10,6 +10,8 @@ npm-debug.*
 *.orig.*
 web-build/
 lib/
+packages/**/*.tgz
+.env
 
 # macOS
 .DS_Store
