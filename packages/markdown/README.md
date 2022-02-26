@@ -1,10 +1,10 @@
-![npm bundle size](https://img.shields.io/bundlephobia/min/@oz/react-native-markdown?style=for-the-badge)
-![npm](https://img.shields.io/npm/dw/@oz/react-native-markdown?style=for-the-badge)
+![npm bundle size](https://img.shields.io/bundlephobia/min/@ozymandiasthegreat/react-native-markdown?style=for-the-badge)
+![npm](https://img.shields.io/npm/dw/@ozymandiasthegreat/react-native-markdown?style=for-the-badge)
 ![GitHub issues](https://img.shields.io/github/issues/OzymandiasTheGreat/react-native-markdown?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/OzymandiasTheGreat/react-native-markdown?style=for-the-badge)
 ![GitHub Repo stars](https://img.shields.io/github/stars/OzymandiasTheGreat/react-native-markdown?style=for-the-badge)
 
-# @oz/react-native-markdown
+# @ozymandiasthegreat/react-native-markdown
 
 Render markdown formatted strings to native
 components. Uses [`@expo/html-elements`](https://www.npmjs.com/package/@expo/html-elements) to
@@ -34,7 +34,7 @@ to syntax-highlight code blocks.
 
 ```tsx
 import { atomDark } from "react-syntax-highlighter/styles/prism";
-import { Markdown } from "@oz/react-native-markdown";
+import { Markdown } from "@ozymandiasthegreat/react-native-markdown";
 
 export default function App() {
 	return (

@@ -1,6 +1,6 @@
 # react-native-markdown monorepo
 
-`@oz/react-native-markdown` is a pure javascript
+`@ozymandiasthegreat/react-native-markdown` is a pure javascript
 library to render markdown to native/semantic
 components. Runs everywhere expo and
 react-native run.
