@@ -1,6 +1,6 @@
 {
 	"name": "@ozymandiasthegreat/react-native-markdown",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Render markdown to native/semantic components. Supports expo, GFM, inline HTML, and syntax highlighting with themes.",
 	"main": "lib/commonjs/index.js",
 	"module": "lib/module/index.js",
