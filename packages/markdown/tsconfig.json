@@ -1,0 +1,11 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "rootDir": "src",
+    "noEmit": false,
+    "declaration": true,
+    "declarationDir": "lib/types"
+  },
+  "exclude": ["node_modules", "lib"]
+}

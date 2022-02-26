@@ -1,0 +1,30 @@
+{
+	"name": "@ozymandiasthegreat/markdown",
+	"version": "1.0.0",
+	"author": {
+		"name": "Tomas Ravinskas",
+		"email": "tomas.rav@gmail.com",
+		"url": "https://tomasrav.me/"
+	},
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"clean": "rm -rf node_modules yarn.lock && find {apps,packages} -maxdepth 2 -type d -name node_modules | rm -rf && yarn",
+		"build": "yarn workspace react-native-markdown build",
+		"example": "yarn workspace example"
+	},
+	"workspaces": {
+		"packages": [
+			"apps/*",
+			"packages/*"
+		],
+		"nohoist": [
+			"react",
+			"react-dom",
+			"react-native",
+			"react-native/**",
+			"react-native-web",
+			"react-native-codegen"
+		]
+	}
+}
