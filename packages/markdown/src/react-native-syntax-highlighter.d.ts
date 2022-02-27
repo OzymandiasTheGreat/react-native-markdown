@@ -1,4 +1,4 @@
-declare module "react-native-syntax-highlighter" {
+declare module "react-native-syntax-highlighter/src" {
 	import React from "react";
 	import ReactSyntaxHighlighter, {
 		SyntaxHighlighterProps,

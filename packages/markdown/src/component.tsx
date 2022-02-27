@@ -29,9 +29,9 @@ import RenderHTML, {
 	defaultHTMLElementModels,
 	defaultSystemFonts,
 	HTMLContentModel,
-} from "react-native-render-html";
-import SyntaxHighlighter from "react-native-syntax-highlighter";
-import ol from "@jsamr/counter-style/presets/arabicIndic";
+} from "react-native-render-html/src";
+import SyntaxHighlighter from "react-native-syntax-highlighter/src";
+import ol from "@jsamr/counter-style/presets/decimal";
 import disc from "@jsamr/counter-style/presets/disc";
 import { MarkedList, MarkerBox } from "@jsamr/react-native-li";
 import type { Table as TableType } from "mdast";
