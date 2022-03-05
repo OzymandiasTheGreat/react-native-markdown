@@ -79,18 +79,12 @@ const pickComponent = ({
 	switch (node.type) {
 		case "root" as any:
 			const Root: React.FC = ({ children }) => (
-				<Article
-					style={[
-						style,
-						{ width: Math.min(style.width as number, width) },
-					]}>
-					{children}
-				</Article>
+				<Article style={[style]}>{children}</Article>
 			);
 			return Root;
 		case "paragraph":
 			const Paragraph: React.FC = ({ children }) => (
-				<P style={pStyle}>{children}</P>
+				<P style={[pStyle]}>{children}</P>
 			);
 			return Paragraph;
 		case "heading":
@@ -159,7 +153,9 @@ const pickComponent = ({
 			);
 			return List;
 		case "listItem":
-			const ListItem: React.FC = ({ children }) => <LI>{children}</LI>;
+			const ListItem: React.FC = ({ children }) => (
+				<LI style={{ flexShrink: 1 }}>{children}</LI>
+			);
 			return ListItem;
 		case "html":
 			const HTML: React.FC<{ value: string }> = ({ value }) => (
@@ -276,6 +272,7 @@ const pickComponent = ({
 								}}
 								accessibilityLabel={imgData.label}
 								resizeMode="contain"
+								style={{ maxWidth: "100%" }}
 							/>
 						)}
 					</>
@@ -324,6 +321,7 @@ const pickComponent = ({
 								}}
 								accessibilityLabel={imgData.label}
 								resizeMode="contain"
+								style={{ maxWidth: "100%" }}
 							/>
 						)}
 					</>

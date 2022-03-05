@@ -48,7 +48,7 @@ export const Markdown: React.FC<{
 	const ast = source.ast || parse(source.markdown || "");
 	style = Object.assign(
 		{},
-		{ flex: 1, alignSelf: "center", width: 800, padding: 25 },
+		{ flex: 1, alignSelf: "center", width: "100%", padding: 25 },
 		style,
 	);
 	pStyle = Object.assign(
